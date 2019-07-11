@@ -41,9 +41,15 @@ h4 {
 }
 
 .indifferent {
-  background-color: #dddd22;
   border: 1px solid #dd9944;
   box-shadow:  -1px 1px #dd9944, -2px 2px #dd9944, -3px 3px #dd9944, -4px 4px #dd9944, -5px 5px #dd9944;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aeb400+0,fcef00+50,e6de00+51,fff45f+100 */
+  background: #aeb400; /* Old browsers */
+  background: -moz-linear-gradient(top,  #aeb400 0%, #fcef00 50%, #e6de00 51%, #fff45f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #aeb400 0%,#fcef00 50%,#e6de00 51%,#fff45f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #aeb400 0%,#fcef00 50%,#e6de00 51%,#fff45f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeb400', endColorstr='#fff45f',GradientType=0 ); /* IE6-9 */
+
 }
 
 .dubious {
