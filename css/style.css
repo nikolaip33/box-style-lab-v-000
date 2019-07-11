@@ -5,6 +5,7 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  background: url(../images/white-wood.jpg);
 }
 
 .container, h1 {
@@ -13,6 +14,10 @@ body, html {
   min-width: 400px;
   padding: 10px;
   margin: 10px auto;
+}
+
+img {
+  border: 1px solid #fff;
 }
 
 h4 {
@@ -25,16 +30,37 @@ h4 {
 .amiable {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
-  background-color: #44cc66;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#549a1e+0,84d82a+50,75ca20+51,b7e87e+100 */
+  background: #549a1e; /* Old browsers */
+  background: -moz-linear-gradient(top,  #549a1e 0%, #84d82a 50%, #75ca20 51%, #b7e87e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #549a1e 0%,#84d82a 50%,#75ca20 51%,#b7e87e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #549a1e 0%,#84d82a 50%,#75ca20 51%,#b7e87e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#549a1e', endColorstr='#b7e87e',GradientType=0 ); /* IE6-9 */
+
 
 }
 
 .indifferent {
-  background-color: #dddd22;
+  border: 1px solid #dd9944;
+  box-shadow:  -1px 1px #dd9944, -2px 2px #dd9944, -3px 3px #dd9944, -4px 4px #dd9944, -5px 5px #dd9944;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aeb400+0,fcef00+50,e6de00+51,fff45f+100 */
+  background: #aeb400; /* Old browsers */
+  background: -moz-linear-gradient(top,  #aeb400 0%, #fcef00 50%, #e6de00 51%, #fff45f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #aeb400 0%,#fcef00 50%,#e6de00 51%,#fff45f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #aeb400 0%,#fcef00 50%,#e6de00 51%,#fff45f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeb400', endColorstr='#fff45f',GradientType=0 ); /* IE6-9 */
+
 }
 
 .dubious {
-  background-color: #dd4444;
+  border: 1px solid #b81818;
+  box-shadow:  -1px 1px #b81818, -2px 2px #b81818, -3px 3px #b81818, -4px 4px #b81818, -5px 5px #b81818;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9a3b1e+0,d8442a+50,ca3c20+51,e88c7e+100 */
+  background: #9a3b1e; /* Old browsers */
+  background: -moz-linear-gradient(top,  #9a3b1e 0%, #d8442a 50%, #ca3c20 51%, #e88c7e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #9a3b1e 0%,#d8442a 50%,#ca3c20 51%,#e88c7e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #9a3b1e 0%,#d8442a 50%,#ca3c20 51%,#e88c7e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a3b1e', endColorstr='#e88c7e',GradientType=0 ); /* IE6-9 */
 }
 
 .column {
