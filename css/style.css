@@ -53,9 +53,14 @@ h4 {
 }
 
 .dubious {
-  background-color: #dd4444;
   border: 1px solid #b81818;
   box-shadow:  -1px 1px #b81818, -2px 2px #b81818, -3px 3px #b81818, -4px 4px #b81818, -5px 5px #b81818;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9a3b1e+0,d8442a+50,ca3c20+51,e88c7e+100 */
+  background: #9a3b1e; /* Old browsers */
+  background: -moz-linear-gradient(top,  #9a3b1e 0%, #d8442a 50%, #ca3c20 51%, #e88c7e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #9a3b1e 0%,#d8442a 50%,#ca3c20 51%,#e88c7e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #9a3b1e 0%,#d8442a 50%,#ca3c20 51%,#e88c7e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a3b1e', endColorstr='#e88c7e',GradientType=0 ); /* IE6-9 */
 }
 
 .column {
